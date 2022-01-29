@@ -1,5 +1,11 @@
 /* https://github.com/antfu/prism-theme-vars */
 @import 'prism-theme-vars/base.css';
+@import 'prism-theme-vars/themes/vitesse-light.css';
+/* Overrides */
+
+:root {
+  --prism-background: #ffffff;
+}
 
 .prose {
   --prism-font-family: 'Input Mono', monospace;
